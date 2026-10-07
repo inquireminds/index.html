@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Lewis P.S. - Intermediate Division (Gr. 7/8)</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dlYellow: '#FACC15',
+                        dlYellowHover: '#EAB308',
+                        dlBlue: '#1E3A8A',
+                        dlBlueLight: '#2563EB',
+                        dlNavy: '#0F172A',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Lexend', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body { top: 0px !important; position: static !important; }
+        html { scroll-behavior: smooth; }
+        .goog-te-banner-frame, .skiptranslate, #goog-gt-tt { display: none !important; }
+        .goog-text-highlight { background-color: transparent !important; box-shadow: none !important; }
+        .hero-banner {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #1d4ed8 100%);
+        }
+    </style>
+    
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'zh-CN,zh-TW,ko,tr,tl,ta,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        function triggerTranslate(langCode) {
+            var select = document.querySelector('.goog-te-combo');
+            if (select) {
+                select.value = langCode;
+                select.dispatchEvent(new Event('change'));
+            }
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- LANGUAGE & TRANSLATION HEADER BAR -->
+    <header class="sticky top-0 z-50 bg-dlNavy text-white shadow-xl border-b border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 py-2.5 flex flex-wrap justify-between items-center gap-3">
+            <div class="flex items-center space-x-3">
+                <div class="w-9 h-9 rounded-xl bg-dlYellow flex items-center justify-center text-dlNavy font-extrabold text-lg shadow">
+                    <i class="fa-solid fa-shield-cat"></i>
+                </div>
+                <div>
+                    <!-- SCHOOL NAME IN SLIGHTLY BIGGER BOLD FONT -->
+                    <h1 class="font-extrabold text-xl sm:text-2xl tracking-tight text-dlYellow font-heading">
+                        David Lewis Public School
+                    </h1>
+                    <p class="text-xs text-slate-300 font-semibold">TDSB • Intermediate Division (Grade 7/8)</p>
+                </div>
+            </div>
+
+            <!-- QUICK LANGUAGE BAR -->
+            <div class="flex flex-wrap items-center gap-1.5 bg-slate-800/90 p-1.5 rounded-xl border border-slate-700 text-xs">
+                <span class="font-bold text-slate-300 mr-1 flex items-center gap-1">
+                    <i class="fa-solid fa-language text-dlYellow"></i> Select Language:
+                </span>
+                <button onclick="triggerTranslate('en')" class="px-2 py-1 font-bold rounded bg-dlYellow text-dlNavy hover:bg-yellow-400 transition">EN</button>
+                <button onclick="triggerTranslate('zh-CN')" class="px-2 py-1 font-bold rounded bg-slate-700 text-white hover:bg-slate-600 transition">🇨🇳 Mandarin</button>
+                <button onclick="triggerTranslate('zh-TW')" class="px-2 py-1 font-bold rounded bg-slate-700 text-white hover:bg-slate-600 transition">🇭🇰 Cantonese</button>
+                <button onclick="triggerTranslate('ko')" class="px-2 py-1 font-bold rounded bg-slate-700 text-white hover:bg-slate-600 transition">🇰🇷 Korean</button>
+                <button onclick="triggerTranslate('tr')" class="px-2 py-1 font-bold rounded bg-slate-700 text-white hover:bg-slate-600 transition">🇹🇷 Turkish</button>
+                <button onclick="triggerTranslate('tl')" class="px-2 py-1 font-bold rounded bg-slate-700 text-white hover:bg-slate-600 transition">🇵🇭 Tagalog</button>
+                <button onclick="triggerTranslate('ta')" class="px-2 py-1 font-bold rounded bg-slate-700 text-white hover:bg-slate-600 transition">🇮🇳 Tamil</button>
+            </div>
+        </div>
+        <div id="google_translate_element" class="hidden"></div>
+    </header>
+
+    <!-- HERO / WELCOME SECTION -->
+    <section class="hero-banner text-white py-12 px-4 shadow-xl relative">
+        <div class="max-w-5xl mx-auto space-y-6">
+            <div class="inline-flex items-center gap-2 bg-dlYellow text-dlNavy font-extrabold text-xs sm:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider shadow">
+                <i class="fa-solid fa-paw"></i> Mascot: Lions • School Motto: "Participate with Pride"
+            </div>
+            
+            <h2 class="text-3xl sm:text-5xl font-black font-heading leading-tight">
+                Welcome to Intermediates <br><span class="text-dlYellow">Parent & Guardian Information Night</span>
+            </h2>
+            
+            <p class="text-slate-200 text-base sm:text-lg max-w-3xl leading-relaxed">
+                In Grade 7 & 8, we build independent thinkers, resilient problem solvers, and student advocates who approach learning with curiosity and confidence.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+                <div class="bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/20">
+                    <i class="fa-solid fa-bullhorn text-dlYellow text-2xl mb-2"></i>
+                    <h3 class="font-bold text-base">Self-Advocacy</h3>
+                    <p class="text-xs text-slate-200">Encouraging students to ask questions, seek help, and express their learning needs confidently.</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/20">
+                    <i class="fa-solid fa-seedling text-dlYellow text-2xl mb-2"></i>
+                    <h3 class="font-bold text-base">Growth Mindset</h3>
+                    <p class="text-xs text-slate-200">Mistakes are expected, respected, and inspected. Growth comes through reflection and effort.</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/20">
+                    <i class="fa-solid fa-user-check text-dlYellow text-2xl mb-2"></i>
+                    <h3 class="font-bold text-base">Responsibility & Initiative</h3>
+                    <p class="text-xs text-slate-200">Taking ownership of organization, work completion, and contributing to a positive community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NAVIGATION TABS -->
+    <nav class="bg-white border-b border-slate-200 sticky top-[57px] z-40 shadow-sm">
+        <div class="max-w-5xl mx-auto flex overflow-x-auto text-xs sm:text-sm font-bold text-slate-700">
+            <a href="#routines" class="py-3.5 px-4 border-b-2 border-transparent hover:border-dlBlue hover:text-dlBlue transition whitespace-nowrap"><i class="fa-solid fa-clock mr-1.5 text-dlBlue"></i>Routines & Expectations</a>
+            <a href="#frameworks" class="py-3.5 px-4 border-b-2 border-transparent hover:border-dlBlue hover:text-dlBlue transition whitespace-nowrap"><i class="fa-solid fa-lightbulb mr-1.5 text-dlYellow"></i>TDSB Frameworks & Inquiry</a>
+            <a href="#plans" class="py-3.5 px-4 border-b-2 border-transparent hover:border-dlBlue hover:text-dlBlue transition whitespace-nowrap"><i class="fa-solid fa-book-open mr-1.5 text-emerald-600"></i>Full Year Curriculum Plans</a>
+            <a href="#fermi" class="py-3.5 px-4 border-b-2 border-transparent hover:border-dlBlue hover:text-dlBlue transition whitespace-nowrap"><i class="fa-solid fa-brain mr-1.5 text-purple-600"></i>SDG & Fermi Math Prompts</a>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="max-w-5xl mx-auto px-4 py-8 space-y-12">
+
+        <!-- SECTION 1: ROUTINES & EXPECTATIONS -->
+        <section id="routines" class="space-y-6">
+            <div class="border-l-4 border-dlBlue pl-4">
+                <h2 class="text-2xl font-extrabold text-dlNavy font-heading">School Routines & Classroom Expectations</h2>
+                <p class="text-slate-600 text-sm">Building habits for academic and personal success in intermediate school.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <!-- Locker Use -->
+                <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-dlYellow transition">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <span class="p-2.5 bg-blue-50 text-dlBlue rounded-xl"><i class="fa-solid fa-lock text-xl"></i></span>
+                        <h3 class="font-bold text-lg text-dlNavy">Locker Access Routine</h3>
+                    </div>
+                    <ul class="text-xs text-slate-700 space-y-2 list-disc pl-4">
+                        <li><strong>Entry & Recess Times:</strong> Lockers are visited upon morning arrival, before recess, after recess, and at dismissal.</li>
+                        <li><strong>In-Class Focus:</strong> Backpacks stay in lockers during class time to keep learning spaces safe and organized.</li>
+                    </ul>
+                </div>
+
+                <!-- Being Prepared -->
+                <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-dlYellow transition">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <span class="p-2.5 bg-amber-50 text-amber-600 rounded-xl"><i class="fa-solid fa-pen-ruler text-xl"></i></span>
+                        <h3 class="font-bold text-lg text-dlNavy">Prepared to Learn Daily</h3>
+                    </div>
+                    <ul class="text-xs text-slate-700 space-y-2 list-disc pl-4">
+                        <li><strong>Basic Supplies:</strong> Pencils, eraser, ruler, calculator, lined notebook, and recharged TDSB device/Chromebook.</li>
+                        <li><strong>Class Readiness:</strong> Arriving on time with all materials ready before the bell rings.</li>
+                    </ul>
+                </div>
+
+                <!-- Assignment Completion -->
+                <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-dlYellow transition">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <span class="p-2.5 bg-emerald-50 text-emerald-600 rounded-xl"><i class="fa-solid fa-calendar-check text-xl"></i></span>
+                        <h3 class="font-bold text-lg text-dlNavy">Timely Work & Responsibility</h3>
+                    </div>
+                    <ul class="text-xs text-slate-700 space-y-2 list-disc pl-4">
+                        <li><strong>Deadlines:</strong> Assignments must be completed and submitted on time to maintain steady progress.</li>
+                        <li><strong>Proactive Communication:</strong> If extra time or support is needed, students are expected to talk to the teacher before the due date.</li>
+                    </ul>
+                </div>
+
+                <!-- Learning Skills & Motto -->
+                <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-dlYellow transition">
+                    <div class
